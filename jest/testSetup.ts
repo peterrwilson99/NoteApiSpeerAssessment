@@ -1,0 +1,5 @@
+process.env.JWT_SECRET = 'test_secret'
+process.env.DATABASE_URL = 'postgresql://test_user:test_password@localhost:5432/test_db'
+process.env.POSTGRES_USER = 'test_user'
+process.env.POSTGRES_PASSWORD = 'test_password'
+process.env.POSTGRES_DB = 'test_db'
